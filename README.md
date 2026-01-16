@@ -3,7 +3,7 @@ This repository contains tasks built to show us how Docker works. A powerful too
 
 ## General Information
 __Number of tasks:__ 7<br/>
-__Completed:__ TBA<br/>
+__Completed:__ 7<br/>
 __Passed:__ TBA<br/>
 
 ## Tasks
@@ -19,14 +19,18 @@ See directory [task1](./task1)
 Now separating back- and front-end in different subdirectories, distribute a front-end using `Nginx` which will be used in the front-end Dockerfile instead of Ubuntu.<br/>
 See directory [task2](./task2)
 
-#### 
-See file [](./)
+#### 3. Connecting the Front-end and Back-end
+In this task we learn to connect to front- and back-end, to display dynamic data on our front-end. Making ends meet, so to speak.<br/>
+See directory [task3](./task3)
 
-#### 
-See file [](./)
+#### 4. Making it Simpler with Docker Compose
+Instead of building images one by one, we learn to use Docker Compose to do it quickly and more effectively.<br/>
+See directory [task4](./task4)
 
-#### 
-See file [](./)
+#### 5. Proxy Server
+In this task, we learn how to use a proxy server to 
+See directory [task5](./task5)
 
-#### 
-See file [](./)
+#### 6. Scale Horizontally
+Load balancing with Nginx and Docker is as easy as adding a flag to the `docker-compose up` command.
+See directory [task6](./task6)
